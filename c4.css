@@ -1,0 +1,157 @@
+body {
+    text-align: center;
+    font-family: 'Hind', sans-serif;
+}
+
+h1 {
+    color: #003EFF;
+    font-family: 'Pacifico', cursive;
+    margin: 5px;
+}
+
+h2 {
+    margin: 11px;
+}
+
+p {
+    line-height: 20px;
+    margin: 10px;
+}
+
+a {
+    color: #003EFF;
+    text-decoration: none;
+}
+
+.button {
+    font-family: 'Pacifico', cursive;
+    font-size: 20px;
+    width: 150px;
+    height: 40px;
+    margin: 0 auto;
+    margin-bottom: 20px;
+    background-color: #003EFF;
+    color: yellow;
+    border-style: solid;
+    border-color: yellow;
+    border-width: 2px;
+    border-radius: 10px;
+}
+
+.button:hover {
+    background-color: #3868FB;
+    cursor: pointer;
+}
+
+.topbox {
+    width: 488px;
+    margin: 10px;
+    margin: 0 auto;
+}
+
+.board {
+    width: 488px;
+    margin: 0 auto;
+    border-bottom-color: #003EFF;
+    border-bottom-width: 10px;
+    border-bottom-style: solid;
+}
+
+.selectionArea {
+    display: flex;
+    flex-direction: row;
+    padding-left: 20px;
+    padding-top: 55px;
+}
+
+.selector {
+    width: 40px;
+    height: 40px;
+    border-radius: 40px;
+    border-width: 10px;
+    border-style: solid;
+    border-color: white;
+    margin: 2px;
+    cursor: pointer;
+}
+
+.piece {
+    width: 40px;
+    height: 40px;
+    border-radius: 40px;
+    border-style: solid;
+    border-width: 10px;
+    margin: 10px;
+}
+
+.slot {
+    width: 60px;
+    height: 60px;
+    border-style: solid;
+    border-width: 2px;
+    background-color: yellow;
+    border-color: #FDEE00;
+}
+
+.hole {
+    background-color: white;
+    width: 40px;
+    height: 40px;
+    border-radius: 40px;
+    border-style: solid;
+    border-width: 10px;
+    border-color: #FDEE00;
+}
+
+.red {
+    background-color: #b20000;
+}
+
+.black {
+    background-color: #000000;
+}
+
+.redSelector:hover {
+    border-width: 10px;
+    background-color: #b20000;
+    border-color: #cc0000;
+}
+
+.blackSelector:hover {
+    border-width: 10px;
+    background-color: #000000;
+    border-color: #191919;
+}
+
+.row {
+    height: 60px;
+    display: flex;
+    flex-direction: row;
+    border-right-color: #003EFF;
+    border-right-width: 20px;
+    border-right-style: solid;
+    border-left-color: #003EFF;
+    border-left-width: 20px;
+    border-left-style: solid;
+}
+
+.base {
+    margin: 0 auto;
+    width: 446px;
+    height: 60px;
+    border-right-color: #003EFF;
+    border-right-width: 40px;
+    border-right-style: solid;
+    border-left-color: #003EFF;
+    border-left-width: 40px;
+    border-left-style: solid;
+}
+
+.handle {
+    margin: 0 auto;
+    width: 50px;
+    height: 20px;
+    border-top-color: #003EFF;
+    border-top-width: 10px;
+    border-top-style: solid;
+}
