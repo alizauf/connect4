@@ -164,7 +164,7 @@ $(document).ready(function() {
             return winNum
         } else {
             winNum++
-            move = [move[0] + 1, move[1] + 1]
+            move = [move[0] - 1, move[1] - 1]
             return this.searchDiagonalUpLeft(board, move, winNum, player)
         }
     }
